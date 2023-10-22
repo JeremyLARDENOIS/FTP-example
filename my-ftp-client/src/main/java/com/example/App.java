@@ -15,7 +15,7 @@ public class App {
 
     public static void main(String[] args) {
         String server = "localhost";
-        int port = 21;
+        int port = 2121;
         String user = "user1";
         String pass = "pass1";
 

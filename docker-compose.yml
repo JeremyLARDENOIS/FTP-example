@@ -6,5 +6,5 @@ services:
     environment:
       - USERS=user1|pass1 user2|pass2 jerem|jerem
     ports:
-      - 21:21
+      - 2121:21
       - 21000-21010:21000-21010

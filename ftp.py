@@ -1,6 +1,8 @@
 import ftplib
 
-ftp = ftplib.FTP('localhost')
+# Se connecter au serveur FTP local sur le port 2121
+ftp = ftplib.FTP()
+ftp.connect('localhost', 2121)
 ftp.login('user1', 'pass1')
 
 print(ftp.pwd())

@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  ftps_server:
+    image: mikatux/ftps-server
+    environment:
+      USER: username
+    ports:
+      - "4567:21"
+      - "3000-3010:3000-3010"
